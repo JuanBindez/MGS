@@ -1,5 +1,7 @@
 import random
 
+numeros_sorteados = []
+
 while len(numeros_sorteados) < 6:
     numero = random.randint(1, 60)
     if numero not in numeros_sorteados:
@@ -19,9 +21,4 @@ while len(numeros_sorteados) < 6:
             card_6 = numero
 
 
-print(card_1)
-print(card_2)
-print(card_3)
-print(card_4)
-print(card_5)
-print(card_6)
+print(card_1, card_2, card_3, card_4, card_5, card_6)
